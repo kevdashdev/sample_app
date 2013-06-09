@@ -21,6 +21,10 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
 group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-inotify', '~> 0.9'
