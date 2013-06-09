@@ -2,10 +2,10 @@ require 'spec_helper'
 
 describe "UserPages" do
   subject { page }
-  let(:user) { FactoryGirl.create :user }
 
   describe 'profile page' do
     before { visit user_path user }
+    let(:user) { FactoryGirl.create :user }
 
     it { should have_selector 'h1', text: user.name }
     it { should have_selector 'title', text: user.name }
