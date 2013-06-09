@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
+gem 'bootstrap-sass', '2.1'
 gem 'mysql2'
 
 group :development, :test do
